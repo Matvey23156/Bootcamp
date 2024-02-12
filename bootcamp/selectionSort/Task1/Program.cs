@@ -32,7 +32,7 @@ int[] sortVibor(int[] array)
             indexMin = j;
         }
         if (array[indexMin] == array[i])
-        continue;
+        continue; // переход к следующей интерации цикла
 
         int temp = array[i];
         array[i] = array[indexMin];
